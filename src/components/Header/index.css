@@ -1,0 +1,89 @@
+/* Write your CSS code here */
+.nav-bar-lg {
+  display: none;
+}
+
+.nav-bar {
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+.sm-nav-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0px;
+}
+.sm-nav-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px;
+  margin-top: 10px;
+  background-color: #e6f6ff;
+  padding: 5px;
+  width: 100%;
+}
+
+.logo {
+  width: 120px;
+  height: 40px;
+}
+.logout-sm {
+  width: 40px;
+  height: 35px;
+}
+.icons-sm {
+  width: 35px;
+  height: 35px;
+  margin-left: 0px;
+}
+
+@media (min-width: 768px) {
+  .nav-bar {
+    display: none;
+  }
+  .nav-bar-lg {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+  }
+  .nav-inner-cont-lg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+  }
+  .nav-contents-cont-lg {
+    list-style-type: none;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .nav-item-lg {
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #475569;
+    font-weight: 500;
+  }
+  .nav-logout-btn-lg {
+    border-style: none;
+    border-radius: 5px;
+    background-color: #0967d2;
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #ffffff;
+    height: 30px;
+    width: 80px;
+  }
+}
